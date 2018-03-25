@@ -1,0 +1,41 @@
+.navbar-shrink {
+  background-color: #00a1eb;
+}
+
+
+nav > .container {
+  a.logo-link,
+  ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  a.logo-link {
+    font-size: 25px;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  ul.navbar-nav li.nav-item a.nav-link {
+    font-size: 14px;
+  }
+
+  ul.navbar-nav li.nav-item  a.active {
+    background: #00a1eb;
+    border-radius: 4px;
+  }
+
+  .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+  }
+}

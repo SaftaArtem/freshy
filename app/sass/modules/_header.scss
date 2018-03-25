@@ -1,0 +1,23 @@
+header.masthead {
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  background: url('../img/header-bg.png') no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 79px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 22px;
+    font-family: "Hind";
+    font-weight: bold;
+  }
+}

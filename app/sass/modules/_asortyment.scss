@@ -1,0 +1,87 @@
+section.asortyment {
+  margin-top: 130px;
+
+  .row {
+    margin-bottom: 50px;
+  }
+
+  .asortyment-header {
+    font-size: 34px;
+    color: #00a1eb;
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+
+  .underline,
+  .asortyment-descr {
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+    font-family: "Hind";
+  }
+
+  .asortyment-slider {
+    margin-bottom: 50px;
+
+    .slick-prev,
+    .slick-next {
+      width: 35px;
+      height: 35px;
+    }
+
+    .slick-prev {
+      left: -35px;
+    }
+
+    .slick-next {
+      right: -35px;
+    }
+
+    .slide {
+      position: relative;
+      z-index: 1001;
+
+      .slide-img {
+        margin: 0 7px;
+
+        img {
+          max-width: 100%;
+          height: auto;
+          margin: auto;
+        }
+      }
+
+      .descr-wrapper {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        height: 30%;
+        width: 50%;
+        margin: -15% 0 0 -25%;
+        text-align: center;
+
+        .name,
+        .price,
+        .order {
+          font-weight: bold;
+          font-family: "Montserrat";
+          font-size: 20px;
+        }
+
+        .order {
+          color: #00a1eb;
+          background: white;
+          border: solid 1px #00a1eb;
+          font-size: 15px;
+          border-radius: 6px;
+          padding: 8px 15px;
+          filter: blur(100px);
+
+          &:hover {
+            filter: blur(0);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

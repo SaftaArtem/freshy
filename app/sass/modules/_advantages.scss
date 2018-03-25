@@ -1,0 +1,45 @@
+section.advantages {
+  margin-top: 150px;
+
+  .row {
+    margin-bottom: 50px;
+  }
+
+  .col-lg-4 {
+    p {
+      text-align: center;
+      font-size: 14px;
+      font-family: "Hind";
+      color: rgb(115, 115, 115);
+    }
+  }
+
+  .advantages-img {
+    border-radius: 75px;
+    background: #00a1eb;
+    width: 150px;
+    height: 150px;
+    fill: white;
+
+    &:hover {
+      background: #fff;
+      fill: #00a1eb;
+      border: solid 1px #00a1eb;
+    }
+  }
+
+  .pan {
+    padding-top: 30px;
+    padding-left: 12px;
+  }
+
+  .fish {
+    padding-top: 35px;
+    padding-left: 6px;
+  }
+
+  .shrimp {
+    padding-top: 35px;
+    padding-right: 9px;
+  }
+}
